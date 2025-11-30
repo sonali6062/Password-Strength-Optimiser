@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Password Strength Checker with Optimization</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Strength Checker</h1>
+    <p class="subtitle">
+      Enter a password and click "Check Strength". The app will show score, details,
+      and optimized suggestions with minimal changes.
+    </p>
+
+    <div class="card">
+      <label for="passwordInput">Enter Password:</label>
+      <input type="password" id="passwordInput" placeholder="Type your password here" />
+      <button id="checkBtn">Check Strength</button>
+    </div>
+
+    <div id="resultSection" class="card hidden">
+      <h2>Result</h2>
+      <p><strong>Score:</strong> <span id="scoreValue">-</span> / 100</p>
+      <p><strong>Strength:</strong> <span id="labelValue">-</span></p>
+
+      <div class="progressBar">
+        <div id="progressFill"></div>
+      </div>
+
+      <h3>Details</h3>
+      <ul id="detailsList">
+        <!-- Filled by JS -->
+      </ul>
+    </div>
+
+    <div id="suggestionSection" class="card hidden">
+      <h2>Optimized Suggestions (Minimal Edits)</h2>
+      <ol id="suggestionsList">
+        <!-- Filled by JS -->
+      </ol>
+      <p class="hint">
+        Click on a suggestion to copy it to your clipboard.
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
