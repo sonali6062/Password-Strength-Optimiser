@@ -36,3 +36,4 @@ Notes
 - The backend start command runs `node server.js` (see `backend/package.json`). The server listens on port 3000 and serves both API endpoints (under `/api`) and the frontend files.
 - Frontend fetches the API via a relative path (`/api/checkPassword`) so both running on the same origin works correctly.
 "# Password-Strength-Optimiser" 
+"# Password-Strength-Optimiser" 
