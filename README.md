@@ -43,7 +43,7 @@ The optimization is defined as:
 \]
 
 Where **D(s, s′)** is the edit distance.  
-(Slides 3–4) :contentReference[oaicite:1]{index=1}
+
 
 ---
 
@@ -77,7 +77,7 @@ A password is considered strong if:
 Str(s') \ge 70
 \]
 
-(Slide 13) :contentReference[oaicite:3]{index=3}
+
 
 ---
 
@@ -98,22 +98,21 @@ Add exactly one character from each missing class:
 - uppercase → `A`  
 - digit → `7`  
 - special → `!`  
-(Slide 15)
+
 
 ### ✔ Step 4 — Remove dictionary/common words  
 Transform weak patterns:  
 - `password` → `P@ssw0rd`  
 - `1234` → `1#3$`  
 - `qwerty` → `Qw3rTy`  
-(Slide 15)
+
 
 ### ✔ Step 5 — Increase entropy  
 Replace repeated characters with random strong characters.  
-(Slide 15)
+
 
 ### ✔ Step 6 — Recompute score  
 Stop when score ≥ 70.  
-(Slide 16)
 
 ### ✔ Step 7 — Generate final suggestions  
 Produces 2–3 strong optimized variations.  
