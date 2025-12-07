@@ -51,7 +51,7 @@ Where **D(s, s′)** is the edit distance.
 
 This project uses a **Greedy Rule-Based Optimization Algorithm**.  
 It sequentially applies the most impactful rule to reach the required strength with minimal edits.  
-(Algorithm: Slides 14–16) :contentReference[oaicite:2]{index=2}
+
 
 ---
 
